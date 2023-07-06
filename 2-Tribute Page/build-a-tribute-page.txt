@@ -1,0 +1,148 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <div id="title-div">
+      <h1 id="title">Bee-a-star</h1>
+      <h4>The Bee that save the world</h4>
+      </div>
+      <figure id="img-div">
+        <img id="image" src="https://img.freepik.com/vector-premium/linda-pequena-abeja-dibujos-animados-volando_188253-3805.jpg" alt="Bee-a-star image">
+        <figcaption id="img-caption">November 17th 1430 a.c., Bee-a-star moments before his dead</figcaption>
+      </figure>
+      <section id="tribute-info">
+        Maybe at this time all the world knows about Bee-a-star, but always is neccesary remember his great deeds that saved us all. For this, is that below i´m going to remember you his more importants deeds: <br>
+        <div id="a"><ul>
+          <li><span class="dates">November 12th 1430 a.c</span>, Bee-a-star born in a honeycomb located in a farm on the east of europa.<br><span class="dates">*</span></li>
+          <li><span class="dates">November 15th 1430 a.c</span>, Bee-a-star learned to speak and alerted humanity to a comet that was speeding towards earth (he knew it thanks to his natural abilities and senses of a bee.<br><span class="dates">*</span></li>
+          <li><span class="dates">November 16th 1430 a.c</span>, Bee-a-star in coop with the N.E.S.A., built a space rocket with the enought power to destroy the asteroid.<br><span class="dates">*</span></li>
+          <li><span class="dates">November 17th 1430 a.c</span>(at the afternoon), drove the space rocket in direction to the asteroid, reaching it at 5:00pm, wich caused a huge explotion that could be seen from all over the earth.<br><span class="dates">*</span></li>
+          <li><span class="dates">November 17th 1430 a.c</span>(at the evening), Bee-a-start fell,cover in fire, at hight speed toward the earth.Being 8:30 a.m. he reached the ground, dying immediately.<br><span class="dates">*</span></li>
+        </ul>
+        <a id="tribute-link" href="" target="_blank">Click here for extra information</a>
+        </div>
+        </section>
+    </main>
+     <footer>
+    No Copyright - be happy to use ^^<br>freeCodeCamp.org
+    <footer>  
+  </body>
+ 
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background: rgb(128,185,186);
+background: linear-gradient(130deg, rgba(128,185,186,1) 0%, rgba(179,246,127,0.9925012241224614) 100%);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+
+}
+#title-div{
+  background: rgb(128,185,186);
+background: linear-gradient(130deg, rgba(128,185,186,1) 0%, rgba(179,246,127,0.9925012241224614) 100%);
+  margin:0;
+  padding:0;
+  border-radius:5px;
+  font-family:sans;
+}
+h1,h4{
+  display:block;
+  margin:auto;
+  text-align:center;
+}
+h4{
+  font-style:italic;
+  color:#444743;
+  font-size:.7rem;
+}
+#img-div{
+  padding-top:5px;
+  background-color:rgb(250, 243, 243);
+  border-radius:5px;
+}
+#image{
+  width:80%;
+  max-width:100%; //this value is not the best, but the page requieres it, so im going to do a little trick
+  max-height:60vh;
+  margin:10px auto;
+  display:block;
+  border-radius:50%;
+}
+#image:hover{
+  cursor:pointer;
+}
+#image:active{
+  transform:rotate(180deg);
+  filter:invert(100%);
+}
+#img-caption{
+  text-align:center;
+  padding:15px 10px;
+  background-color:lightgreen;
+}
+
+#tribute-link{
+  text-decoration:none;
+  display:block;
+  color:yellow;
+  font-style:italic;
+  font-size:.8rem;
+  text-align:center;
+  background-color:#762a6ebb;
+  border-radius:5px;
+}
+#tribute-link:hover{
+  background-color:#762a6eFF;
+}
+
+#tribute-info{
+text-align:center;
+width:85%;
+margin:0 auto;
+}
+#a{
+  max-width:530px;
+    margin:0 auto;
+}
+
+@media screen and (max-width: 500px){
+  #tribute-info{
+    text-align:justify;
+  }
+}
+@media screen and (min-width:500px){
+  #image{
+max-width:60vh;
+}
+}
+
+footer{
+  font-style:italic;
+  font-size:.8rem;
+  text-align:center;
+  background-color:lightblue;
+  margin-top:10px;
+}
+
+li{
+  margin-bottom:2px;
+  font-size:.9rem;
+}
+li:last-child {
+margin-bottom:6px;}
+
+.dates{
+  font-weight:bold;
+}
+
+** end of undefined **
+

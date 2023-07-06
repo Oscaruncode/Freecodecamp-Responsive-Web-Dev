@@ -1,0 +1,352 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation Page About JS</title>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+<body>
+
+ <nav id="navbar">
+      <header><span>JS</span> <br/> ¿Essencials?</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#Hello_World">Hello World</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Data_types">Data types</a>
+        </li>
+        <li><a class="nav-link" href="#Some_about_operators">Some about operators</a></li>
+        <li><a class="nav-link" href="#Oops_some_advanced_info">Oops some advanced info</a></li>
+        
+      </ul>
+
+      <div id="JS">
+          <p id="J">J</p><p id="S">S</p>
+      </div>
+    </nav>
+
+
+
+<main id="main-doc">
+
+  <section class="main-section" id="Introduction"><header>Introduction</header>
+  <article>
+    <p>¿Have you ever ask about how do the webpages work? Ok, if it´s your case, continue reading. </p>
+    <p>So, in this page i gonna try to explain you some intersting things about the magic behind of escenes in the webpages. In specific, i gonna tell you about something called JavaScript (shhh, i´m gonna tell you a secret that is going to look more interesting when someone ask you about that. Only say: "Javascript, yes of corse, i understand perfectly. <span class="brand">Javascript is a cross-platform, object-oriented scripting language that usually developers use for do interactive web pages"</span> ).</p>
+    <p>For this porpuse, im gonna tell about the following topics:</p>
+    <ul>
+        <li>First, the fireproof for all developers, we gonna write "HELLO WORLD" with Javascript code.</li>
+        <li>Second,something that every developers must known, the Javascript´s Data Types.</li>
+        <li>third, you pass basics maths?.Ok,so operators will be easy for you.</li>
+        <li>fourth, We gonna skip some topics and go to some more advanced topics in JS.</li>
+    </ul>
+    <article>
+    </section>
+
+     <section class="main-section" id="Hello_World"><header>Hello World</header>
+     <article>
+    <p>If you ever tried to learn some programming lenguage, its posible that the sentence "Hello World" will be familiar for you. Write hello world in any programe its the first step for anyone that try learn its, and in this case will not be the exception. So, lets do it.</p>
+    <p>For this porpose follow the following steps:</p>
+    
+    <ol>
+    <li>The first step is <span class="brand">install nodeJs</span> (you can search in google and its just install as every program) or you can use a web compiler as RunJs</li>
+    <li>Now that we have Js in our computer, we can <span class="brand">create a JS file</span> with the following syntax: aRandomName.js. This step is optional for people that use the web compiler.</li>
+    <li>Next, open the file, maybe you notice that is a page where you can write any character with your keyboad (as word, noted, etc). Dont be afraid, that is right, as you infer we can write words.Ok..... lets do a pause,i need explain you some important before, and is that in javascript we can communication with the computer, <span class="brand">we can Order him! trough the words thats has a special meaning for the computer called "KeyWords"</span>, for example, we can use the word print, if, do...while, etc. as you infer, yes thats word are really similar our natural lenguage. So, lets hand to do it. </li>
+    <li>ok ok ok, now yes seriusly, what we came for. Lets order to the computer trough keywords that  "say" the sentence <span class="brand">"Hello world" in the screen</span>. For this porpose, we gonna need three ingredients:
+        <ol type="a">
+          <li>The word Alert</li>
+          <li>A pair of pharentesis</li>
+          <li>And the sentence that we gonna order to the computer says, sentence wich we gonna enclose in coutes as this example:"some sentence".</li>
+        </ol>
+      </li>
+      <li>Ok, Now we have all the ingredients, the only thing that we must do it is put it all together, as i show you next:
+      <code> alert("Hello World")</code>
+      </li>
+      <li>And that is all. Great! we did it, now we are a professional developer. Ok no, but its a good start.</li>
+    </ol>
+   
+    
+    </article>
+    </section>
+    
+     <section class="main-section" id="Data_types"><header>Data types</header>
+     <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <h3>Primitivos</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h4>Number</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <code>Number("123") === 123</code>
+    <h4>String</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <code>const string4 = new String("A String object")</code>
+    <h4>Bolean</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <code>const x = false <br/> const Y = True</code>
+    <h4>Undefined</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <code>Undefined</code>
+    <h4>Null</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <code>Null</code>
+    <h3>No-Primitivos</h3>
+    <ul>
+      <li>Arrays</li>
+      <li>Functions</li>
+    <li>Objects</li>
+    </ul>
+    <code>function functionX () {}</code>
+    <code>[a,b,c,d]</code>
+    </article>
+    </section>
+    
+     <section class="main-section" id="Some_about_operators">
+       <header>Some about operators</header>
+       <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+     <code>const x = (4 + 3 - 1) === 3</code>
+     <ul>
+   <li>Assignment</li>
+   <li>Arithmetic</li>
+   <li>Relational</li>
+   </ul>
+   </article>
+    </section>
+    
+     <section class="main-section" id="Oops_some_advanced_info"><header>Oops some advanced info</header>
+     <article>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+   <code>const baseUrl = 'http://localhost:3001/anecdotes'
+<br><br>
+
+const getAll = async () => {<br>
+  const response = await axios.get(baseUrl)<br>
+  return response.data
+}</code>
+<ul>
+    <li>Filter</li> 
+   <li>Map & Set</li> 
+   <li>Arrow Functions</li> 
+   <li>Async & Await</li> 
+  </ul>
+   <article>
+   </section>
+  
+  </main>
+  
+  </body>
+
+
+
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{box-sizing:border-box; margin:0}
+html{background:rgb(238, 246, 249);color:black;font-family:Georgia, serif;min-width:260px
+}
+#navbar{
+    position: fixed;
+    min-width: 260px;
+    top: 0px;
+    left: 0px;
+    width: 260px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    background-color: #2a2a40;  
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+  font-size: 2em;
+  border-bottom: .1em rgba(0, 22, 22, 0.4) solid;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#navbar header{
+  color:white;
+}
+
+#navbar span:first-child{
+  font-size:4rem;
+  color:white;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+#navbar li {
+  color: #4d4e53;
+  border-bottom: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar li:first-of-type{
+  border-top: 1px solid;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #efe7e7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navbar a:hover{
+  background-color:rgb(165, 214, 249)
+}
+
+::-webkit-scrollbar{
+  width: 5px;      
+}
+
+::-webkit-scrollbar-track{
+  background: rgb(201, 237, 201);     
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 20px;   
+  border: 3px solid rgb(51, 170, 255);  
+}
+
+#main-doc{
+  display:block;
+  padding:30px;
+  margin:0 0 100px 270px;
+}
+
+section article{
+  margin:12px;
+  color:#4d4e53;
+}
+
+section article *{
+  text-align: justify;
+  text-justify: inter-word;
+  margin:16px 0px;
+}
+
+section article li{
+  margin:.8rem;
+  max-width:38vw;
+}
+
+
+code {
+    display:block;
+    width: 100%;
+    padding: 40px;
+    min-width: 230px;
+    background-color:rgb(246, 227, 227);
+    border-radius: 20vh;
+  }
+
+  .brand{
+    background-color:rgb(217, 234, 244);
+    border-radius: 20vh;
+  }
+
+
+@media only screen and (min-width: 900px) {
+  section article{
+    margin-top:2vw;
+      margin-left:3vw;
+    max-width:700px;
+  }
+
+  #main-doc header {
+    max-width:900px;
+    padding-bottom:1vw;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+  #navbar ul{
+    border: 1px solid;
+    height: 150px;
+  }
+
+   #navbar {
+    background-color: white;
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    max-height: 277px;
+    z-index: 1;
+    border:.2px rgba(0, 22, 22, 0.4) solid;    
+  }
+  #navbar header,#navbar span:first-child{
+  color:black;
+  }
+
+  #navbar a{
+    color: #4d4e53;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 290px;
+  }
+
+  section article li{
+    max-width:80vw;
+  }
+  ol{
+    padding-left:0;
+  }
+
+  ol ol{
+    padding-left:10px;
+  }
+
+  #JS{display:none}
+}
+
+
+#JS{
+  position:relative;
+  bottom:30%;
+  left:42%;
+  font-size:5em;
+}
+
+#J{
+  position:relative;
+  left:-5%;
+  bottom:-50px;
+}
+
+** end of undefined **
+

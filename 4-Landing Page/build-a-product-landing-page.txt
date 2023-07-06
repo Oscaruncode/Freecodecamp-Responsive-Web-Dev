@@ -1,0 +1,460 @@
+** start of undefined **
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img id="header-img" src="https://imgdb.net/storage/uploads/7e01a666c4db0c9ae14f6be33a3092e7aee0fb33ffc39a8e8305b73f2d5e82d8.png" alt="A kiwi photo">
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#our-work"><i class="fa-solid fa-warehouse fa-border"></i>Our Work</a></li>
+            <li><a class="nav-link" href="#features"><i class="fa-solid fa-trophy fa-border"></i></i>Features</a></li>
+            <li><a class="nav-link" href="#pricing"><i class="fa-brands fa-paypal fa-border"></i>Pricing</a></li>
+            <li><a class="nav-link" href="#contact"><i class="fa-solid fa-message fa-border"></i>Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container">
+
+        <section id="our-work">
+          <iframe id="video" height="315" src="https://www.youtube.com/embed/K4TOrB7at0Y?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section id="features">
+
+          <div id="grid-container">
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-credit-card fa-3x"></i></div>
+            <div class="desc">
+              <h2>Credit Card</h2>
+              <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-truck-fast fa-3x"></i></div>
+            <div class="desc">
+              <h2>Fast Shipping</h2>
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+             <i class="fa-solid fa-cart-shopping fa-3x"></i>
+            </div>
+            <div class="desc">
+              <h2>Buy how much your want</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              </p>
+            </div>
+          </div>
+
+
+          <div class="grid">
+            <div class="icon">
+             <i class="fa-solid fa-bacteria fa-3x"></i>
+            </div>
+            <div class="desc">
+              <h2>Molecular resistance</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              </p>
+            </div>
+          </div>
+
+
+          <div class="grid">
+            <div class="icon">
+             <i class="fa-brands fa-galactic-republic fa-3x"></i>
+            </div>
+            <div class="desc">
+              <h2>Global Shipping</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              </p>
+            </div>
+          </div>
+
+
+          <div class="grid">
+            <div class="icon">
+             <i class="fa-regular fa-message fa-3x"></i>
+            </div>
+            <div class="desc">
+              <h2>Support</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              </p>
+            </div>
+          </div>
+        </div>
+        </section>
+
+       
+
+
+        <section id="pricing">
+          <div class="Producto">
+            <div class="level">One Pound</div>
+            <h2>1 USD</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="Producto">
+            <div class="level">One tonne</div>
+            <h2>2.204 USD</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="Producto">
+            <div class="level">Custom ammount</div>
+            <h2>1 USD - One Billion</h2>
+            <ol>
+             <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+
+
+
+        <section id="contact">
+        <h2>Email Us</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Enter your email address" required>
+          <input id="submit" type="submit" value="Contact" class="btn">
+        </form>
+      </section>
+      
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright Non-Copyright</span>
+        </footer>
+      </div>
+
+
+    </div>
+  
+
+</body>
+<script src="https://kit.fontawesome.com/67b101c49d.js" crossorigin="anonymous"></script>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ecedee;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  color: green;
+  text-decoration: none;
+   font-weight: bold;
+}
+
+
+.btn {
+  padding: 5px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 2px #ea8049 solid;
+  color:#12417c;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.grid {
+  display: flex;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ecedee;
+}
+
+.logo {
+  width: 60vw;
+}
+
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+nav {
+  font-weight: 400;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+#contact {
+  border-radius:50%;
+  background-color:rgba(99, 82, 82, 0.387);
+  height: 250px;
+  width: 250px;
+  margin: 10px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+#contact > h2 {
+  margin-bottom: 30px;
+  color:#5350ab;
+}
+
+#contact input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+  border:none;
+  margin-bottom:25px;
+}
+
+#contact input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 35px;
+  margin: 15px 0;
+  background:white;
+  border-radius:5px;
+}
+
+#contact input[type='submit']:hover {
+  background-color: #8bb0b8;
+  transition: background-color 1s;
+}
+
+#features {
+  margin-top: 30px;
+}
+#grid-container{
+  display:grid;
+  grid-template-columns: 50vw 50vw;
+}
+
+
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+#our-work {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+#our-work > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.producto > .level {
+  background-color: #b55c67;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.producto > h2 {
+  margin-top: 15px;
+}
+
+
+.producto > ol > li {
+  padding: 2px 0;
+}
+
+.producto > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #7d0031;
+  font-weight: 400;
+  color:white;
+}
+
+
+footer {
+  margin-top: 20px;
+  background-color: #cebbd3;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+
+
+
+@media (max-width: 800px) {
+  header {
+    flex-wrap: wrap;
+  }
+  nav {
+    margin-top: 2px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  nav li {
+    padding-bottom: 5px;
+    font-size: .9em;
+  }
+   nav > ul {
+    flex-direction: column;
+  }
+   #our-work {
+    margin-top: 190px;
+  }
+  .logo {
+    width: 100%;
+    position: relative;
+  }
+  .logo > img {
+    margin: 0 auto;
+    max-width: 220px;
+  }
+  #pricing {
+    flex-direction: column;
+  }
+  .producto {
+    max-width: 350px;
+    width: 100%;
+    margin: 10 auto;
+  }
+  #grid-container{
+    grid-template-columns: auto;
+  }
+}
+
+
+
+
+
+
+
+** end of undefined **
+
