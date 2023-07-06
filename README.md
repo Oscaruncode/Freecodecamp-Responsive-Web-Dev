@@ -1,0 +1,1 @@
+This repository contains the projects for the course "Responsive Web Developer" from FreeCodeCamp, by Oscar Fuentes.
