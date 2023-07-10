@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="language" content="English">
+  </head>
+    
+<body>
+  <div id="background-lightblue"></div>
+<h1 id="title">My cake survey</h1>
+<h3>by:JfimsX</h3>
+<p id="description"> This is a little survey about your cake prefferences, so if you want do it </p>
+<form id="survey-form">
+
+<fieldset name="first-fieldset" class="fieldset-textinp">
+  <legend>Hello, Could you gift me your contact info?</legend>
+  <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2019/01/truco-para-que-los-pasteles-no-se-hagan-duros.jpg" alt="Ups, A picture cake is here" id="cakeimg">
+  <label id="name-label" fieldset-textinp>Could you put your name? please: <input type="text" id="name" required placeholder="Name"></label>
+  <label id="email-label">if you dont put your email, you can´t continue :<input type="email" id="email" required placeholder="Email"></label>
+  <label id="number-label">Ok, if you reach this, please write your number: <input id="number" type="number" min="1111" max="999999" placeholder="Tel"></label>
+</fieldset>
+
+<fieldset id="aboutcakes">
+  <legend>Ok, im going to ask you about cakes</legend>
+
+<label id="dropdown-label" for="cake-dropdown"> Ok, let us begining with your favorite cake: </label><select class="dropdown" name="cake-dropdown" id="dropdown">
+  <option>Wich cake do you prefer?</option>
+  <option value="chocolate-cake">Chocolate-cake</option>
+  <option value="lemon-cake">Lemon-cake</option>
+  <option value="pineaple-apple-cake">Pineaple-apple-cake</option>
+ <option value="Other-cake">Other-cake</option>
+ </select>
+ <label for="dropdown-fight">Choose the cake that you would figth with</label>
+ <select name="dropdown-fight" class="dropdown">
+<option>Choose the fighter cake that would fight:</option>
+<option value="gigantic-fighter">The gigantic chocalate</option>
+<option value="lemon-pie-fighter">The smellty lemon pie</option>
+<option value="cupcake-fighter">The frozen cupcake</option>
+<option value="chili-fighter">The hot and spicy chili cake</option>
+ </select>
+<label for="eat-select">And, what about if you must eat for ever a cake</label>
+  <select name="eat-select" class="dropdown"><option>Wich one would you select?</option>
+  <option value="chocolate-cake">Chocolate-cake</option>
+  <option value="lemon-cake">Lemon-cake</option>
+  <option value="pineaple-apple-cake">Pineaple-apple-cake</option>
+ <option value="Other-cake">none of above</option>
+    
+  </select>
+
+
+ <label id="label-other-cake-txt"> OH, you select other one, so write wich: <input type="text" id="other-cake-txt" placeholder="Wich Other Cake" ></label>
+<!-- When the option other cake will be select, display this label -->
+
+<fieldset class="fs-nest">
+  <legend>Two quickly questions</legend>
+  <p>Do you like coffee-cake?</p>
+<fieldset id="group1"><label class="coffee-label"><input name="radio-coffee" type="radio" value="CoffeYes"> Yes, definitely</label> 
+<label class="coffee-label"> <input name="radio-coffee" type="radio" value="CoffeNo"> Nooooooooooooo!</label> </fieldset>
+<p>A lot of sugar and butter?</p>
+<fieldset id="group2"><label class="coffee-label"><input name="radio-sugar" type="radio" value="sugYes"> Yes, definitely</label> 
+<label class="coffee-label"> <input name="radio-sugar" type="radio" value="sugNo"> Nooooooooooooo!</label> </fieldset>
+
+</fieldset>
+<p>Ok, maybe at this point you could think that i love cakes; but what about you?<p>
+<fieldset class="fs-nest">
+  <legend>This field is only for true cake fans</legend>
+  <p>Please select which of the next statements you agree with: </p>
+  <label class="checkbox-labels"><input type="checkbox" value="hate-cake-checkbox"> I hate cakes when rain</label>
+   <label class="checkbox-labels"><input type="checkbox" value="wanna-cake-checkbox"> I wanna cake right now</label>
+    <label class="checkbox-labels"><input type="checkbox" value="diabetic-checkbox"> I can´t eat cakes</label>
+     <label class="checkbox-labels"><input type="checkbox" value="cake-where">cake-where?</label>
+
+
+     <p>Maybe you could be noticed that i forgot include the opinions of haters of cakes, but i always think in all, So, if is this your case, you could vent your anger by writing a poem about why you hate cake (I may never read it, oops): </p>
+     <textarea id="hate-poem" placeholder="Now, you must write blindy" cols="25"></textarea>
+  </fieldset>
+</fieldset>
+<h2>Happy Birthday Old Woman</h2>
+  <p>They brought in the cake and did a devil’s dance.<br>
+I was horrified, for I had not thought of this prance.<br>
+For a long time, but I am getting much older now.<br>
+I can feel the heat of death on at least my left brow.<br><a href="https://allpoetry.com/poems/about/CAKE">Click here to go to the autor page </a></p>
+
+  <input type="submit" name="Submit" id="submit">
+<footer>
+<p>
+        No Copyright - be happy to use ^^ <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+</footer>
+
+
+</form>
+
+</body>
+</html>
+
